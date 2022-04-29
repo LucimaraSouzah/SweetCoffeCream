@@ -732,7 +732,7 @@ footer {
         align-items: center;
         justify-content: center;
     }
-    .desc, .desc-person, .blog-card, .desc-testimonials, .desc-products, .desc-blog {
+    .desc, .desc-person, .blog-card, .desc-testimonials, .desc-products, .desc-blog, .desc-our{
         width: 80%;
     }
     .our-products-body {
@@ -771,9 +771,10 @@ footer {
     }
     .description {
         margin: 0px;
+        width: 100%;
     }
     .desc-description, .title-description {
-        width: 50%;
+        width: 100%;
         margin-bottom: 20px;
     }
     iframe {
