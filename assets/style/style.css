@@ -698,7 +698,7 @@ footer {
         font-size: 30px;
     }
     .header-content {
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     .button-buy {
@@ -782,7 +782,7 @@ footer {
     }
 }
 
-/* Hover */
+/* Hover  and details*/
 
 .white:hover {
     background-color: #fff;
