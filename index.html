@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/icons/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="icon" href="assets/images/icon.svg" />
     <title>Sweet Coffe Cream</title>
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="header">
                 <img class="logo" src="assets/images/logocoffee.png" alt="Logo da Cafeteria">
             <ul class="menu">
                 <li>HOME</li>
@@ -21,12 +21,12 @@
                 <li>SHOP</li>
                 <li>CONTACTS</li>
             </ul>
-            <button class="button-buy">BUY NOW</button>
+            <button class="button-buy white">BUY NOW</button>
         </div>
         <div class="header-content">
             <h1 class="title">Sweet Coffee Cream</h1>
             <p class="desc">Sweet Coffee Cream is the place where you can get flavorful coffee strains from global elite brands and roasters at very affordable price.</p>
-            <button class="button-read">READ MORE</button>
+            <button class="button-read white">READ MORE</button>
         </div>
     </header>
     <main>
@@ -39,14 +39,14 @@
             <div class="who-text">
                 <h1 class="title-who">WHO WE ARE</h1>
                 <p class="desc-who">We are a team of dedicated coffee fans who celebrate exceptional coffee brands and roasters by providing our guests the unique opportunity to try coffee drinks of the highest quality.</p>
-                <button class="button-learn">LEARN MORE</button>
+                <button class="button-learn black">LEARN MORE</button>
             </div>
         </div>
         <div class="our-services">
             <div class="our-text">
                 <h1 class="title-our">OUR SERVICES</h1>
                 <p class="desc-our">We provide a variety of services both to our new and regular customers. If you can think of anything connected with coffee, then we can offer it at our Sweet Coffee Cream.</p>
-                <button class="button-read">READ MORE</button>
+                <button class="button-read white">READ MORE</button>
             </div>
             <div class="our-square">
                 <div class="square">
@@ -78,17 +78,17 @@
             </div>
                   
             <div class="testimonials-person">
-                <img src="assets/images/person1.jpg" alt="Imagem de uma mulher">
-                <h1 class="title-person">Katherine Smith</h1>
-                <q class="desc-person">I visited Sweet Coffee Cream last week during the day with my laptop so that I could get some work of my own done and enjoy some coffee shop atmosphere. This place was perfect! The coffee was great, and the truffles were ridiculously good. I recommend this place to everybody.</q>
+                <img class="image-person" id="imagePerson" alt="Imagem de uma mulher">
+                <h1 class="title-person" id="titlePerson">Katherine Smith</h1>
+                <q class="desc-person" id="descPerson">I visited Sweet Coffee Cream last week during the day with my laptop so that I could get some work of my own done and enjoy some coffee shop atmosphere. This place was perfect! The coffee was great, and the truffles were ridiculously good. I recommend this place to everybody.</q>
             <div class="icon-person">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </div>
             <div class="buttons">
-                <button class="buttons-testimonials">BACK</button>
-                <button class="buttons-testimonials">NEXT</button>
+                <button id="btnBack" onclick="changeUser(--position)" class="buttons-testimonials black">BACK</button>
+                <button id="btnNext" onclick="changeUser(++position)" class="buttons-testimonials black">NEXT</button>
             </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                 </div>
                 </div>
             </div>
-            <button class="button-our-products">VIEW ALL PRODUCTS</button>
+            <button class="button-our-products white">VIEW ALL PRODUCTS</button>
         </div>
         <div class="latest-blog-posts">
             <div class="blog-text">
@@ -142,7 +142,7 @@
                     <h1 class="title-card">Advantagens and Disadvantages of Coffee</h1>
                     <p class="desc-card">It seems that one minute drinking coffee is bad for you, the next minute coffee is good for you. Still now with all the evidence coming to light that it’s good for your health, it doesn’t take...</p>
                     <div class="buttons-blog">
-                        <button class="button-read-blog">READ MORE</button>
+                        <button class="button-read-blog black">READ MORE</button>
                         <div class="icons-blog">
                             <div class="icon">
                                 <i class="fa fa-heart" aria-hidden="true"></i>
@@ -164,7 +164,7 @@
                         <h1 class="title-card">What is the Best Coffee in the World?</h1>
                         <p class="desc-card">Wondering what is the best coffee in the world? Well, we know what it is, and we are ready to share it with you. It is Drumroll speciality coffee. Freshly roasted high quality coffee beans from one of the dozens...</p>
                         <div class="buttons-blog">
-                            <button class="button-read-blog">READ MORE</button>
+                            <button class="button-read-blog black">READ MORE</button>
                             <div class="icons-blog">
                                 <div class="icon">
                                     <i class="fa fa-heart" aria-hidden="true"></i>
@@ -186,7 +186,7 @@
                         <h1 class="title-card">Top 5 Facts You Didn’t Know About Coffee</h1>
                         <p class="desc-card">If you know everything there is to know about coffee, then you may know these – in which case, the post title would be wrong. But in any case, this is a list of 5 facts about coffee that...</p>
                         <div class="buttons-blog">
-                            <button class="button-read-blog">READ MORE</button>
+                            <button class="button-read-blog black">READ MORE</button>
                             <div class="icons-blog">
                                 <div class="icon">
                                     <i class="fa fa-heart" aria-hidden="true"></i>
@@ -229,7 +229,7 @@
                             <input type="text" id="fullname" required>
                             <label for="telephone">Telephone</label>
                             <input type="text" id="telephone" required>
-                            <button class="button-request">SEND REQUEST</button>
+                            <button class="button-request black">SEND REQUEST</button>
                     </div>
                 </div>
             </div>
@@ -254,12 +254,14 @@
         <div class="follow">
             <h1 class="title-follow">Follow Us</h1>
             <div class="icons-follow">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-facebook f" aria-hidden="true"></i>
+                <i class="fa fa-twitter f" aria-hidden="true"></i>
+                <i class="fa fa-youtube f" aria-hidden="true"></i>
+                <i class="fa fa-linkedin f" aria-hidden="true"></i>
             </div>
         </div>
     </footer>
+    <a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active"></a>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

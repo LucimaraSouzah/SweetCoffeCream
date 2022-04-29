@@ -781,3 +781,74 @@ footer {
         height: 400px;
     }
 }
+
+/* Hover */
+
+.white:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.black:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.f:hover {
+    cursor: pointer;
+    background-color: var(--orange);
+}
+.desc-pages:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.menu li:hover {
+    cursor:pointer;
+    color: var(--orange);
+}
+
+.ui-to-top.active {
+    transform: translateY(0);
+}
+
+.ui-to-top {
+    width: 50px;
+    height: 50px;
+    font-size: 80px;
+    line-height: 46px;
+    color: #FFF;
+    background: #ce6d06;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    z-index: 20;
+    transition: .45s all ease-in-out;
+}
+
+.ui-to-top.fa {
+    display: inline-block;
+    font-size: 35px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header{
+    background-color: #242423;
+    padding: 25px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .33s all ease;
+    position: fixed;
+    z-index: 2;
+}
+
+
+.bg-transparent {
+    background-color:transparent;
+}
+
