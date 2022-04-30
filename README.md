@@ -67,7 +67,7 @@ Ou apenas click aqui para executar a aplicação -->
 
 ## 📝 Agradecimentos
 
-Obrigada pela atenção, espero que tenha gostado. Este projeto foi um desafio do Time Front Arretado proposto pelo <a href=https://www.linkedin.com/in/dersonsena/><img height="18" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
+Obrigada pela atenção, espero que tenha gostado. Este projeto foi um desafio do Time Front Arretado proposto pelo &nbsp;<a href=https://www.linkedin.com/in/dersonsena/><img height="18" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" title="Kilderson Sena"/></a>
 
 Feito por Lucimara Souza 💜
 
