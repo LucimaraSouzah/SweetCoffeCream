@@ -30,7 +30,7 @@
 $ git clone https://github.com/LucimaraSouzah/SweetCoffeCream
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd SweetCoffeCream
-# Abra arquivo principal na seu browser, ou atravez do comando
+# Abra arquivo principal no seu browser, ou através do comando
 $ google-chrome index.html
 ```
 <div>
