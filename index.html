@@ -6,22 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style-tablet.css">
+    <link rel="stylesheet" href="assets/style/style-mobile.css">
     <link rel="icon" href="assets/images/icon.svg" />
     <title>Sweet Coffe Cream</title>
+
 </head>
 <body>
     <header>
         <div class="header" id="header">
-                <img class="logo" src="assets/images/logocoffee.png" alt="Logo da Cafeteria">
-            <ul class="menu">
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>SERVICES</li>
-                <li>BLOG</li>
-                <li>SHOP</li>
-                <li>CONTACTS</li>
-            </ul>
-            <button class="button-buy white">BUY NOW</button>
+            <div class="header-flag">
+
+                <i class="fa fa-bars" onclick="showHiddenMenu()" aria-hidden="true"></i>
+                <div>
+                    <img class="logo" src="assets/images/logocoffee.png" alt="Coffee shop logo">
+                </div>
+                
+                <ul class="menu screen translate-off" id="menuScreen">
+                    <li class="expand">
+                        <span>HOME</span>
+                    </li>
+                    <li class="expand">
+                        <span>ABOUT</span>
+                        <ul class="list-in off">
+                            <li>Our team</li>
+                            <li>Testimonials</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </li>
+                    <li class="expand">
+                        <span>SERVICES</span>
+                    </li>
+                    <li class="expand">
+                        <span>BLOG</span>
+                        <ul class="list-in off">
+                            <li>Single post</li>
+                        </ul>
+                    </li>
+                    <li class="expand">
+                        <span>SHOP</span>
+                        <ul class="list-in off">
+                            <li>Single Product</li>
+                            <li>Cart</li>
+                            <li>Checkout</li>
+                        </ul>
+                    </li>
+                    <li class="expand">
+                        <span>CONTACTS</span>
+                        <ul class="list-in off">
+                            <li>Contacts 1</li>
+                            <li>Contacts 2</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button class="button-buy white">BUY NOW</button>
+            </div>
         </div>
         <div class="header-content">
             <h1 class="title">Sweet Coffee Cream</h1>
@@ -32,9 +72,9 @@
     <main>
         <div class="who-we-are">
             <div class="who-images">
-                <img class="img-who" src="assets/images/img1.jpg" alt="Imagem de uma mulher com uma xícara de café">
-                <img class="img-who" src="assets/images/img2.jpg" alt="Imagem de duas xícaras com café">
-                <img class="img-who" src="assets/images/img3.jpg" alt="Imagem de grãos de café">
+                <img class="img-who" src="assets/images/img1.jpg" alt="Image of a woman with a cup of coffee">
+                <img class="img-who" src="assets/images/img2.jpg" alt="Image of two cups of coffee">
+                <img class="img-who" src="assets/images/img3.jpg" alt="Coffee beans image">
             </div>
             <div class="who-text">
                 <h1 class="title-who">WHO WE ARE</h1>
@@ -50,22 +90,22 @@
             </div>
             <div class="our-square">
                 <div class="square">
-                    <img src="assets/images/icon-service1.png" alt="Ícone de grão">
+                    <img src="assets/images/icon-service1.png" alt="Grain icon">
                     <h1 class="title-square">SELECTED COFFEE BEANS</h1>
                     <p class="desc-square">Enjoy the aroma of selected coffee beans available at our shop.</p>
                 </div>
                 <div class="square">
-                    <img src="assets/images/icon-service2.png" alt="Ícone de pacote de café">
+                    <img src="assets/images/icon-service2.png" alt="Coffee pack icon">
                     <h1 class="title-square">ELITE COFFEE</h1>
                     <p class="desc-square">Take a sip of Elite Coffee, and revel in the different tastes.</p>
                 </div>
                 <div class="square">
-                    <img src="assets/images/icon-service3.png" alt="Ícone de bulé de café">
+                    <img src="assets/images/icon-service3.png" alt="Coffee pot icon">
                     <h1 class="title-square">TASTY COFFEE</h1>
-                    <p class="desc-square">At Coffee Shop you can find lots of tasty coffee flavors.</p>
+                    <p class="desc-square">At Sweet Coffee Cream you can find lots of tasty coffee flavors.</p>
                 </div>
                 <div class="square">
-                    <img src="assets/images/icon-service4.png" alt="Ícone de filtro de café">
+                    <img src="assets/images/icon-service4.png" alt="Coffee filter icon">
                     <h1 class="title-square">COOKING COFFEE</h1>
                     <p class="desc-square">If you prefer to cook coffee, we have something special for you.</p>
                 </div>
@@ -78,7 +118,7 @@
             </div>
                   
             <div class="testimonials-person">
-                <img class="image-person" id="imagePerson" alt="Imagem de uma mulher">
+                <img class="image-person" id="imagePerson" alt="Image of a woman">
                 <h1 class="title-person" id="titlePerson">Katherine Smith</h1>
                 <q class="desc-person" id="descPerson">I visited Sweet Coffee Cream last week during the day with my laptop so that I could get some work of my own done and enjoy some coffee shop atmosphere. This place was perfect! The coffee was great, and the truffles were ridiculously good. I recommend this place to everybody.</q>
             <div class="icon-person">
@@ -99,7 +139,7 @@
             </div>
             <div class="our-products-body">
                 <div class="card-products">
-                    <img src="assets/images/card1.jpg" alt="Imagem de pó de café, se referindo ao expresso">
+                    <img src="assets/images/card1.jpg" alt="Image of ground coffee, referring to espresso">
                     <h1 class="title-card">EXPRESSO</h1>
                     <p class="desc-card">One of the most popular coffee variations nowadays.</p>
                 <div class="icon-person">
@@ -109,7 +149,7 @@
                 </div>
                 </div>
                 <div class="card-products">
-                    <img src="assets/images/card2.jpg" alt="Imagem de uma mulher bebendo café">
+                    <img src="assets/images/card2.jpg" alt="Image of a woman drinking coffee">
                     <h1 class="title-card">CAPPUCCINO</h1>
                     <p class="desc-card">This famous Italian coffee drink has a delicate taste and aroma.</p>
                 <div class="icon-person">
@@ -119,7 +159,7 @@
                 </div>
                 </div>
                 <div class="card-products">
-                    <img src="assets/images/card3.jpg" alt="Imagem grãos de café">
+                    <img src="assets/images/card3.jpg" alt="Coffee beans image">
                     <h1 class="title-card">AMERICANO</h1>
                     <p class="desc-card">An espresso-based drink designed to resemble coffee in a cup.</p>
                 <div class="icon-person">
@@ -134,11 +174,11 @@
         <div class="latest-blog-posts">
             <div class="blog-text">
                 <h1 class="title-blog">LATEST BLOG POST</h1>
-                <p class="desc-blog">Coffee Shop is not only a place where you can get a hot and tasty coffee. Our team members also write interesting articles on everything concerning coffee.</p>
+                <p class="desc-blog">Sweet Coffee Cream is not only a place where you can get a hot and tasty coffee. Our team members also write interesting articles on everything concerning coffee.</p>
             </div>
             <div class="blog-body">
                 <div class="blog-card">
-                    <img src="assets/images/post1.jpg" alt="Imagem de uma mão segurando uma xícara de café">
+                    <img src="assets/images/post1.jpg" alt="Image of a hand holding a cup of coffee">
                     <h1 class="title-card">Advantagens and Disadvantages of Coffee</h1>
                     <p class="desc-card">It seems that one minute drinking coffee is bad for you, the next minute coffee is good for you. Still now with all the evidence coming to light that it’s good for your health, it doesn’t take...</p>
                     <div class="buttons-blog">
@@ -160,7 +200,7 @@
                     </div>
                 </div>
                     <div class="blog-card">
-                        <img src="assets/images/post2.jpg" alt="Imagem de uma mão segurando uma xícara de café">
+                        <img src="assets/images/post2.jpg" alt="Image of a hand holding a cup of coffee">
                         <h1 class="title-card">What is the Best Coffee in the World?</h1>
                         <p class="desc-card">Wondering what is the best coffee in the world? Well, we know what it is, and we are ready to share it with you. It is Drumroll speciality coffee. Freshly roasted high quality coffee beans from one of the dozens...</p>
                         <div class="buttons-blog">
@@ -182,7 +222,7 @@
                         </div>
                     </div>
                     <div class="blog-card">
-                        <img src="assets/images/post3.jpg" alt="Imagem de uma mão segurando uma xícara de café">
+                        <img src="assets/images/post3.jpg" alt="Image of a hand holding a cup of coffee">
                         <h1 class="title-card">Top 5 Facts You Didn’t Know About Coffee</h1>
                         <p class="desc-card">If you know everything there is to know about coffee, then you may know these – in which case, the post title would be wrong. But in any case, this is a list of 5 facts about coffee that...</p>
                         <div class="buttons-blog">
@@ -229,7 +269,7 @@
                             <input type="text" id="fullname" required>
                             <label for="telephone">Telephone</label>
                             <input type="text" id="telephone" required>
-                            <button class="button-request black">SEND REQUEST</button>
+                            <button class="button-request black" id="buttonRequest">SEND REQUEST</button>
                     </div>
                 </div>
             </div>
@@ -239,7 +279,7 @@
         <div class="pages">
             <h1 class="title-pages">Pages</h1>
             <ul class="pages-text">
-                <li class="desc-pages">HOME</ul>
+                <li class="desc-pages">HOME</li>
                 <li class="desc-pages">BLOG</li>
                 <li class="desc-pages">ABOUT</li>
                 <li class="desc-pages">SHOP</li>

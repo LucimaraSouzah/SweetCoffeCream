@@ -1,0 +1,145 @@
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .header-content {
+    margin-left: 20px;
+  }
+
+  .button-buy {
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .who-we-are {
+    padding: 60px 20px 60px 20px;
+    flex-direction: column;
+  }
+
+  .who-text {
+    margin-left: 0px;
+  }
+
+  .desc-who {
+    width: 100%;
+  }
+
+  .who-images {
+    margin-bottom: 20px;
+  }
+
+  .our-services {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .our-text {
+    padding: 100px 20px 40px 40px;
+  }
+
+  .square:nth-child(1),
+  .square:nth-child(2),
+  .square:nth-child(3) {
+    border-right: none;
+  }
+
+  .square {
+    border-right: none;
+    border-bottom: 1px solid var(--lightgrey);
+  }
+
+  .testimonials-text,
+  .our-products-text,
+  .blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desc,
+  .desc-person,
+  .blog-card,
+  .desc-testimonials,
+  .desc-products,
+  .desc-blog,
+  .desc-our {
+    width: 80%;
+  }
+
+  .testimonials-person img {
+    width: 30%;
+  }
+
+  .our-products-body {
+    flex-direction: column;
+  }
+
+  .blog-body {
+    justify-content: center;
+  }
+
+  .blog-card:nth-child(1),
+  .blog-card:nth-child(3) {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    opacity: 1;
+  }
+
+  .map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--lightgrey);
+  }
+
+  .map-desc {
+    padding: 30px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: var(--lightgrey);
+    justify-content: center;
+  }
+
+  .desc-left,
+  .desc-right {
+    margin-left: 10px;
+    padding: 0px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .pages-text {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .desc-description,
+  .title-description {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  iframe {
+    height: 400px;
+  }
+
+  .button-read-blog,
+  .button-read {
+    padding: 10px;
+  }
+}
