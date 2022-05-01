@@ -1,7 +1,7 @@
-# SweetCoffeCream
+# <img height="25" src="https://cdn-icons-png.flaticon.com/512/3026/3026407.png"> inWeather
 
 <h4 align="center">
-	<img height="150" src="https://user-images.githubusercontent.com/95291739/166086789-7076d7fb-d782-415c-8e32-ad9dfbeb5ab9.png">
+	<img height="150" src="https://cdn-icons-png.flaticon.com/512/1163/1163657.png">
 </h4>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## 💻 Sobre o projeto
 
-<img height="16" src="https://cdn-icons-png.flaticon.com/512/590/590836.png"> Site de uma cafeteria - basicamente um site contendo informações sobre a cafeteria como: quem ela é, serviços, depoimentos, seus produtos, últimos posts do blog e endereço.
+<img height="16" src="https://cdn-icons-png.flaticon.com/512/869/869869.png"> Site para ver a situação climática atual. Mostra o clima, temperatura, umidade e vento. 
 
 ---
 
@@ -27,16 +27,16 @@
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/LucimaraSouzah/SweetCoffeCream
+$ git clone https://github.com/LucimaraSouzah/weatherProject
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd SweetCoffeCream
+$ cd weatherProject
 # Abra arquivo principal no seu browser, ou através do comando
 $ google-chrome index.html
 ```
 <div>
 Ou apenas click aqui para executar a aplicação --> 
-    <a href="https://lucimarasouzah.github.io/SweetCoffeCream">
-    <img height="30" valign=middle src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
+    <a href="https://lucimarasouzah.github.io/weatherProject/">
+    <img height="30" valign=middle src="https://cdn-icons-png.flaticon.com/512/733/733553.png"/>
     </a>
 </div>
 
@@ -47,7 +47,7 @@ Ou apenas click aqui para executar a aplicação -->
 - **[HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)**
 - **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)**
 - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)**
-
+- **[SASS](https://sass-lang.com)**
 
 
 #### **Utilitários**
@@ -67,7 +67,7 @@ Ou apenas click aqui para executar a aplicação -->
 
 ## 📝 Agradecimentos
 
-Obrigada pela atenção, espero que tenha gostado. Este projeto foi um desafio do Time Front Arretado proposto pelo &nbsp;<a href=https://www.linkedin.com/in/dersonsena/><img height="18" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" title="Kilderson Sena"/></a>
+Obrigada pela atenção, espero que tenha gostado.
 
 Feito por Lucimara Souza 💜
 
